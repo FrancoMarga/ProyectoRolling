@@ -1,6 +1,11 @@
 body{
+<<<<<<< HEAD
     background-color: #301860;
+=======
+    background-color:rgb(34, 1, 34) ;
+>>>>>>> 1a9aa272b8c2810776ab9d9dc653482c7ee62549
     text-decoration:none;
+    
 }
 
 
@@ -15,7 +20,7 @@ color: white;
     font-size:xx-large;
     font-weight: bold;
 }
-   
+  
 
 
 .slide{
@@ -96,6 +101,41 @@ footer {
         padding: 35px 0px;
     }
 }
+<<<<<<< HEAD
 .box1 {
 list-style: none;
 }
+=======
+
+
+
+/*Naty*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background-color: rgba(72, 9, 132, 0.905);
+    z-index:10000;
+    width: 100%;
+    height: 100px;
+    /*position: fixed;*/
+}
+
+main{margin-top: 30px;
+z-index: 1000;
+}
+
+
+
+    /*botones*/
+.btn{
+    border-color:white;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+>>>>>>> 1a9aa272b8c2810776ab9d9dc653482c7ee62549
