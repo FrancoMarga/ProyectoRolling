@@ -1,0 +1,173 @@
+body{
+    background-color:#2e0527;
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.596);
+    margin: 0px;
+    padding: 40px;
+}
+
+.botton{
+    background-color: #3c1a81;
+}
+
+.img{
+    width: 100px;
+    height: 200px;
+    border: solid 2px #3c1a81;
+    border-radius: 25px;
+}
+
+.text{
+    color: rgba(255, 255, 255, 0.596);
+    font-size:larger;
+    display: none;
+}
+
+div{
+    padding: 20px;
+    display:grid;
+}
+
+.opacity{
+    background-color: #2e052700;
+}
+
+@keyframes imagenAgrandada {
+    from{
+        position: static;
+        transform: scale(1);
+    }
+    to{
+        position: static;
+        transform: scale(1.50);
+    }
+}
+
+.img:hover{
+    animation-name:imagenAgrandada;
+    animation-duration:0.3s;
+    animation-fill-mode: both;
+}
+
+
+
+
+
+
+
+@media(min-width:768px){
+    body{
+        background-color: red;
+    }
+    h1{
+        color: rgba(255, 255, 255, 0.596);
+        margin: 0px;
+        padding: 40px;
+    }
+
+    .botton{
+        background-color: #3c1a81;
+    }
+
+    .img{
+        width: 100px;
+        height: 200px;
+        border: solid 2px #3c1a81;
+        border-radius: 25px;
+    }
+    
+    .text{
+        color: rgba(255, 255, 255, 0.596);
+        font-size:larger;
+        display: none;
+    }
+
+    div{
+        padding: 20px;
+        display:grid;
+    }
+
+    .opacity{
+        background-color: #2e052700;
+    }
+    
+    @keyframes imagenAgrandada {
+        from{
+            position: static;
+            transform: scale(1);
+        }
+        to{
+            position: static;
+            transform: scale(1.50);
+        }
+    }
+
+    .img:hover{
+        animation-name:imagenAgrandada;
+        animation-duration:0.3s;
+        animation-fill-mode: both;
+    }
+
+}
+
+@media(min-width:1024px)
+{
+    body{
+        background-color: blue;
+    }
+
+    h1{
+        color: rgba(255, 255, 255, 0.596);
+        margin: 0px;
+        padding: 40px;
+    }
+
+    .botton{
+        background-color: #3c1a81;
+    }
+
+    .img{
+        width: 200px;
+        height: 300px;
+        border: solid 2px #3c1a81;
+        border-radius: 25px;
+    }
+    
+    .text{
+        color: rgba(255, 255, 255, 0.596);
+        font-size:larger;
+        display: grid;
+    }
+
+    div{
+        padding: 20px;
+        display:grid;
+    }
+
+    .opacity{
+        background-color: #2e052700;
+    }
+    
+    @keyframes imagenAgrandada {
+        from{
+            position: static;
+            transform: scale(1);
+        }
+        to{
+            position: static;
+            transform: scale(1.50);
+        }
+    }
+
+    .img:hover{
+        animation-name:imagenAgrandada;
+        animation-duration:0.3s;
+        animation-fill-mode: both;
+    }
+}
+
+
+
+
