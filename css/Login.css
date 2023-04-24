@@ -122,3 +122,7 @@ body {
 .inferior a:hover {
     color:  rgba(196, 134, 253, 0.905);
 }
+
+header{
+    margin-bottom: 0px;
+}
