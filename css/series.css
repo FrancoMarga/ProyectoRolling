@@ -1,0 +1,45 @@
+body{
+    background-color: #001848;
+}
+@media  (max-width:429px){
+ 
+    .card-title{
+        font-size: xx-large !important;
+    }
+    .card-text{
+        font-size: xx-small !important;
+    }
+
+    h1{
+        font-size: medium;
+    }
+    #item{
+        padding: 2px !important;
+    }   
+    #epi{
+        display: none;
+
+    }  
+
+}
+@media (min-width:430px) and (max-width: 770px){
+    .card-title{
+        font-size: 70px;
+    }
+    .card-text{
+        font-size: medium;
+
+    }
+
+}
+@media (min-width: 771px){
+    .card-title{
+        font-size: 120px;
+    }
+    .card-text{
+        font-size: xx-large;
+        margin-top: 50px;
+       
+    }
+
+}

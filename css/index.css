@@ -1,9 +1,7 @@
 body{
-<<<<<<< HEAD
-    background-color: #301860;
-=======
-    background-color:rgb(34, 1, 34) ;
->>>>>>> 1a9aa272b8c2810776ab9d9dc653482c7ee62549
+
+    background-color: #001848!important;
+
     text-decoration:none;
     
 }
@@ -101,41 +99,151 @@ footer {
         padding: 35px 0px;
     }
 }
-<<<<<<< HEAD
 .box1 {
 list-style: none;
 }
-=======
-
-
-
-/*Naty*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-.navbar{
-    background-color: rgba(72, 9, 132, 0.905);
-    z-index:10000;
-    width: 100%;
-    height: 100px;
-    /*position: fixed;*/
-}
-
-main{margin-top: 30px;
-z-index: 1000;
+body{
+    background-color: rgb(34, 1, 34);
+    text-decoration:none;
 }
 
 
+a{
+text-decoration: none;
+color: white;
+}
 
-    /*botones*/
-.btn{
-    border-color:white;
+.color1 { 
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size:xx-large;
+    font-weight: bold;
 }
-.btn:hover{
-    background-color: blueviolet;
+   
+
+
+.slide{
+    margin-top: 10px;
+
 }
->>>>>>> 1a9aa272b8c2810776ab9d9dc653482c7ee62549
+.slide img{
+ margin: cover;   
+
+height: 80vh;
+position: center;
+}
+
+.banner {
+    
+    height: 125px;
+    text-align: center;
+    color: white;
+    border: solid;
+    background-color: aquamarine;
+    border: black;
+    border-style: double;
+    border-width: 15px;
+    
+   /* animation-duration: 10s;
+    animation-name: bannerAnimation;
+*/
+    animation: bannerAnimation 2s infinite;
+    
+}
+
+@keyframes bannerAnimation {
+    0%{background-color: blueviolet;};
+    25%{background-color: yellowgreen;};
+    50%{background-color: red;};
+    100%{background-color: aqua;};
+}
+
+.logobanner{
+    height: 85px;
+    width: 100px;
+    margin-left: -350px;
+    margin-top: 7px;
+    position: absolute;
+
+}
+.logobanner2{
+    height: 85px;
+    width: 100px;
+    margin-left: 200px;
+    margin-top: -40px;
+    position: absolute;
+
+}
+/*banner responsive*/
+@media (min-with:768px) {
+    .logobanner{
+        margin-left: -350px;
+    }
+    .logobanner2{
+        margin-left: 200px;
+    }
+}
+
+@media (max-width:429px){
+    .card-title{
+        font-size: large !important;
+    }
+    .card-text{
+        font-size: xx-small !important;
+        width: 50% !important;
+    }
+    .card-tx{
+        font-size: xx-small !important;
+        bottom: 5px;
+        left: 15px;
+
+    }
+    .logobanner {
+        height: 55px;
+        width: 55px;
+        margin-left: -150px;
+        margin-top: 31px;
+       
+    }
+    .logobanner2{
+       height: 55px;
+        width: 55px;
+        margin-left: 30px;
+        margin-top: -7px;
+    }
+
+}
+@media (min-width:430px) and (max-width: 770px){
+    .card-title{
+        font-size: xx-large;
+    }
+    .card-text{
+        font-size: medium;
+    }
+    .card-tx{
+        text-align: start;
+        bottom: 15px;
+        left:5px;
+    }
+}
+@media (min-width: 771px){
+    .card-title{
+        font-size: 80px;
+    }
+    .card-text{
+        font-size: x-large;
+        margin-top: 50px;
+    }
+    .card-tx{
+        text-align: start;
+        bottom: 15px;
+        left:5px;
+    }
+
+}
+
+.error{
+    height: 200px;
+    margin-left: 600px;
+
+}
