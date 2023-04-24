@@ -5,6 +5,20 @@ body{
     text-decoration:none;
     
 }
+.navbar{
+  background-color: #483078;
+  z-index:10000;
+  width: 100%;
+  height: 100px;
+  /*position: fixed;*/
+}
+
+.btn{
+  border-color:white;
+}
+.btn:hover{
+  background-color: blueviolet;
+}
 
 
 a{
