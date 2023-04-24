@@ -1,4 +1,5 @@
 body{
+    font-family: 'Mukta', sans-serif;
     background-color: #001848;
 }
 @media  (max-width:429px){
@@ -15,6 +16,7 @@ body{
     }
     #item{
         padding: 2px !important;
+        
     }   
     #epi{
         display: none;
@@ -29,6 +31,12 @@ body{
     .card-text{
         font-size: medium;
 
+    }
+    #p1{
+        display: none;
+    }
+    #btn1{
+        display: none;
     }
 
 }
