@@ -10,16 +10,29 @@ body{
   z-index:10000;
   width: 100%;
   height: 100px;
-  /*position: fixed;*/
+ 
 }
 
 .btn{
   border-color:white;
 }
 .btn:hover{
-  background-color: blueviolet;
+  background-color: #6845e7;
 }
 
+.dropdown-item{
+    background-color:#483078;
+    color:white;
+}
+
+.dropdown-item:hover{
+    background-color:#6845e7;
+    color:white;
+}
+.dropdown-menu{
+    background-color: #483078;
+    color:white;
+}
 
 a{
 text-decoration: none;
