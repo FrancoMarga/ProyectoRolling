@@ -10,6 +10,13 @@ body{
     height: 100px;
     /*position: fixed;*/
   }
+  .btn{
+    border-color:white;
+  }
+  .btn:hover{
+    background-color: #6845e7;
+  }
+  
 @media (max-width:429px){
     #epi{
         display: none;
