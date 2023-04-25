@@ -15,7 +15,7 @@ main h1{
     padding: 40px;
 }
 .navbar{
-  background-color: rgba(72, 9, 132, 0.905);
+  background-color: #483078;
   z-index:10000;
   width: 100%;
   height: 100px;
@@ -116,7 +116,7 @@ position: center;
 footer {
     width: 100%;
     height: 20%;
-    background-color: rgba(72, 9, 132, 0.905);
+    background-color: #483078;
     color: white;
 }
 .pie-pagina .grupo-1{
