@@ -1,9 +1,9 @@
 body{
 
     background-color: #001848!important;
-
+    font-family: 'Kanit', sans-serif;
     text-decoration:none;
-    
+   
 }
 .navbar{
   background-color: #483078;
@@ -186,29 +186,50 @@ position: center;
 }
 
 .logobanner{
-    height: 85px;
+   
     width: 100px;
     margin-left: -350px;
-    margin-top: 7px;
+    margin-bottom: 10px;
     position: absolute;
 
 }
-.logobanner2{
-    height: 85px;
-    width: 100px;
+#logo2{
+   
+    
     margin-left: 200px;
-    margin-top: -40px;
+    margin-top: -45px;
     position: absolute;
 
 }
-/*banner responsive*/
-@media (min-with:768px) {
-    .logobanner{
-        margin-left: -350px;
+@media (max-width: 320px){
+    .logobanner {
+       
+        width: 100px;
+        margin-left: 50px;
+        margin-top: 15px;
+        position: absolute;
     }
-    .logobanner2{
-        margin-left: 200px;
+    #logo2 {
+        
+        width: 50px;
+        margin-left: 33px;
+        margin-top: -100px;
+        position: absolute;
     }
+}
+@media (max-width: 844px){
+    
+.logobanner {
+    
+    width: 86px;
+    margin-left: -176px;
+    position: absolute;
+    margin-top: 15px;
+}
+#logo2{
+    margin-top: -24px;
+    margin-left: 41px;
+}
 }
 
 @media (max-width:429px){
@@ -225,21 +246,14 @@ position: center;
         left: 15px;
 
     }
-    .logobanner {
-        height: 55px;
-        width: 55px;
-        margin-left: -150px;
-        margin-top: 31px;
-       
+   
     }
-    .logobanner2{
-       height: 55px;
-        width: 55px;
-        margin-left: 30px;
-        margin-top: -34px;
+    .imagenresp{
+        height: auto;
+        width: auto;
     }
 
-}
+
 @media (min-width:430px) and (max-width: 770px){
     .card-title{
         font-size: xx-large;
@@ -252,6 +266,8 @@ position: center;
         bottom: 15px;
         left:5px;
     }
+   
+   
 }
 @media (min-width: 771px){
     .card-title{
@@ -266,6 +282,7 @@ position: center;
         bottom: 15px;
         left:5px;
     }
+    
 
 }
 
@@ -280,8 +297,3 @@ position: center;
 }
 
 
-
-
-main{
-    margin-top: 95px;
-}
