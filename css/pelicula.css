@@ -1,6 +1,15 @@
 body{
     background-color: #001848;
+    font-family: 'Mukta';
+
 }
+.navbar{
+    background-color: #483078;
+    z-index:10000;
+    width: 100%;
+    height: 100px;
+    /*position: fixed;*/
+  }
 @media (max-width:429px){
     .card-title{
         font-size: large !important;
@@ -20,8 +29,21 @@ body{
     #item{
         padding: 5% !important;
 
+    }
+    .btn-secondary{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        
+    }
+    .btn-text{
+        margin-top: -15px !important;
+        display: flex;
+        justify-content: start;
+
 
     }
+    
     
 
 }
@@ -40,21 +62,126 @@ body{
     #item{
         padding: 5% !important;
     }
+    .btn-text{
+        display: flex;
+        justify-content: start;
+    }
+    .btn-secondary{
+        width: 200px;
+    }
 }
 @media (min-width: 1025px){
     .card-title{
         font-size: 80px;
     }
     .card-text{
-        font-size: x-large;
-        margin-top: 50px;
+        font-size: xx-large;
+        margin-top: 50px; 
     }
+
     .card-tx{
+        font-size: x-large;
         text-align: start;
         bottom: 15px;
         left:15px;
     }
+    .btn-text{
+        display: flex;
+        justify-content: start;
 
+    }
+    .btn-secondary{
+        width: 200px;
+    }
 }
+footer {
+    width: 100%;
+    height: 20%;
+    background-color: #483078;
+    color: white;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    height: 80%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+}
+.pie-pagina .grupo-1 .logo figure{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .logo figure img{
+    width: 110px;
+}
+.pie-pagina .grupo-1 .box h2{
+  padding: 20px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.red-social{
+  padding-bottom: 10px;
+}
+
+.pie-pagina .grupo-2{
+  height: 20%;
+    background-color: #0a1a2a;
+    padding: 10px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+.box1 {
+  list-style: none;
+  padding: 50px;
+  }
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 0px 0px;
+    }
+  
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+.color1 { 
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
     
 

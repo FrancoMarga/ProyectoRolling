@@ -1,19 +1,31 @@
+*{
+    margin:10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+ 
+
+/*suscripción*/
 body {
     font-family: 'Overpass', sans-serif;
     font-weight: normal;
     font-size: 100%;
-    
-    
     margin: 0;
-    background-color:#483078;
+    background-color:#301870;
+    overflow-x:hidden ;
+    width:100vw ;
 }
-
-#contenedor {
+.contenedorpadre{
     display: flex;
     align-items: center;
-    justify-content: center;
-    
-    margin: 0;
+    margin: 0 auto;
+
+}
+.contenedor {
+    margin: 0 auto;
     padding: 0;
     min-width: 100vw;
     min-height: 100vh;
@@ -22,8 +34,9 @@ body {
 }
 
 #central {
-    max-width: 320px;
+    max-width: 400px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .titulo {
@@ -38,27 +51,22 @@ body {
     padding: 50px 30px;
     background-color: #001848;
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.415);
-    
     border-radius: 3px 3px 3px 3px;
-  
-    
     box-sizing: border-box;
+    
 }
 
 #login input {
     font-family: 'Overpass', sans-serif;
     font-size: 110%;
-    color: white;
-    
+    color: black;
+    margin :0 auto;
     display: block;
     width: 100%;
     height: 40px;
-    
     margin-bottom: 10px;
     padding: 5px 5px 5px 10px;
-    
     box-sizing: border-box;
-    
     border: none;
     border-radius: 3px 3px 3px 3px;
 
@@ -66,7 +74,7 @@ body {
 
 #login input::placeholder {
     font-family: 'Overpass', sans-serif;
-    color: #E4E4E4;
+    color:gray;
 }
 
 #login button {
@@ -76,11 +84,8 @@ body {
     width: 100%;
     height: 40px;
     border: none;
-    
     border-radius: 3px 3px 3px 3px;
-    
     background-color: #483078;
-    
     margin-top: 10px;
 }
 
@@ -123,6 +128,36 @@ body {
     color:  rgba(196, 134, 253, 0.905);
 }
 
-header{
-    margin-bottom: 0px;
+.card{
+    margin: 0px auto;
 }
+
+.card-body{
+    background-color:#001848;
+    color:white;
+}
+
+.btn{
+    background-color:rgba(126, 66, 183, 0.905);
+}
+
+.btn:hover{
+    background-color:rgba(196, 134, 253, 0.905);
+}
+
+h1{
+    text-align: center;
+    color:white;
+}
+
+@media (max-width:420px) {
+    .login{
+        width: 100vw;
+    }
+    
+}
+
+main{
+    width: 100%;
+}
+

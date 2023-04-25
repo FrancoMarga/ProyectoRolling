@@ -10,50 +10,58 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/pelicula.css" />
+    <link rel="stylesheet" href="../css/pelicula.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Rubik+Iso&family=Tilt+Prism&display=swap');
+    </style>
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <nav class="navbar  navbar-expand-lg ">
       <div class="container-fluid ">
-        <a class="navbar-brand" href="./index.html">
-          <img src="img/logo.png" alt="logo" width="70" height="70">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/logo.png" alt="logo" width="70" height="70">
         </a>
-        <a class="navbar-brand text-white" href="#">Inicio</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand text-white" href="../index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
-              <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 Peliculas
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Todas las Peliculas</a></li>
                 <li><a class="dropdown-item" href="#">Peliculas Estrenos</a></li>
-          
+    
                 <li><a class="dropdown-item" href="#">Mas populares</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 Series
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Todas las Series</a></li>
                 <li><a class="dropdown-item" href="#">Nuevos Lanzamientos</a></li>
-            
+    
                 <li><a class="dropdown-item" href="#">Series Populares</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 Generos
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Romance</a></li>
                 <li><a class="dropdown-item" href="#">Terror </a></li>
-              
+    
                 <li><a class="dropdown-item" href="#">Acción</a></li>
                 <li><a class="dropdown-item" href="#">Drama</a></li>
                 <li><a class="dropdown-item" href="#">Comedias</a></li>
@@ -63,11 +71,11 @@
             <li class="nav-item">
               <a class="nav-link active text-white" aria-current="page" href="#">Mas Populares</a>
             </li>
-             
-             <a class="btn btn-outline text-white" href="./Paginas/Login.html" role="button">Login</a>
-             <a class="btn btn-outline text-white" href="#" role="button">Suscripción</a>
-            
-      
+    
+            <a class="btn btn-outline text-white" href="./Paginas/Login.html" role="button">Login</a>
+            <a class="btn btn-outline text-white" href="./Paginas/suscripcion.html" role="button">Suscripción</a>
+    
+    
     
           </ul>
           <!--input -->
@@ -75,7 +83,7 @@
             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
             <button class="btn btn-outline text-white" type="submit">Buscar</button>
           </form>
-          
+    
     
     
         </div>
@@ -85,22 +93,25 @@
     <div class="container-fluid p-2">
       <div class="card text-bg-dark">
         <img
-          src="./img/A2.jpg"
+          src="../img/A2.jpg"
           class="card-img"
           alt="Avatar2"
         />
         <div class="card-img-overlay">
-          <h1 class="card-title">Avatar: The Way Of Water</h1>
-          <p class="card-text w-25 bg-black bg-opacity-25 mt-xl-5 opacity-75">
+          <h1 class="card-title" >Avatar: The Way Of Water</h1>
+          <p class="card-text w-50 bg-black bg-opacity-25 mt-xl-5 opacity-75" id="p1">
             Básicamente lo mismo que la 1, pero en el agua: El mismo tipo,
             atacando al mismo otro tipo que intenta evitar que exploten el
             mismo planeta de nuevo. Mientras tanto, destruyen todo en las 3
-            horas y pico que dura la película.
-          </p>
-                    
-          <p class="card-tx opacity-50 position-absolute">
-            • 3.12 hs • + 12 años • 15/12/2022 • Full HD •
-          </p>
+            horas y pico que dura la película.</p>
+          <div class="btn-text">
+            <button type="button" class="btn btn-secondary">Ver!
+            </button>
+            <p class="card-tx opacity-50 mx-5">
+
+             • 3.12 hs • + 12 años • 15/12/2022 • Full HD •
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -109,17 +120,17 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
               <div class="carousel-item active d-flex justify-content-around">
-                <a href="#"><img src="./img/Fast-Furious-7-1920x1200.jpg" class="d-block w-100 p-3 rounded-1" id="item" alt="F&F7" title="Muchos autos, gente enojada, familia, la roca, el otro pelado y el otro pelado, desafiando por completo la física y la lógica. Y obviamente, Ganando"></a>
-                <a href="#"><img src="./img/titanic nueva 2.jpg" class="d-block w-100 p-3 rounded-1" id="item" alt="Titanic2" title="Lo que ya conocemos, pero remasterizado y con algunos retoques virtuales. Leo sigue sin entrar en la tabla, sorry."></a>
-                <a href="#"><img src="./img/9-91466_annabelle-movie-wallpaper-annabelle-movie.jpg" class="d-block w-100 p-3 rounded-1" id="item" alt="Anabelle" title="Cuenta la historia de esta muñeca espantosa que nos dió pesadillas a todos."></a>
-                <a href="#"><img src="./img/orfan.jpg" class="d-block w-100 p-3 rounded-1" id="item" alt="ElOrfanato" title="1, 2, 3...TOCO LA PARED!! terrible película, espeluznante, 10 de 10"></a>
+                <a href="#"><img src="../img/Fast-Furious-7-1920x1200.jpg" class="d-block w-100 p-3 rounded-1" id="item" alt="F&F7" title="Muchos autos, gente enojada, familia, la roca, el otro pelado y el otro pelado, desafiando por completo la física y la lógica. Y obviamente, Ganando"></a>
+                <a href="#"><img src="../img/titanic nueva 2.jpg" class="d-block w-100 p-3 rounded-1" id="item" alt="Titanic2" title="Lo que ya conocemos, pero remasterizado y con algunos retoques virtuales. Leo sigue sin entrar en la tabla, sorry."></a>
+                <a href="#"><img src="../img/9-91466_annabelle-movie-wallpaper-annabelle-movie.jpg" class="d-block w-100 p-3 rounded-1" id="item" alt="Anabelle" title="Cuenta la historia de esta muñeca espantosa que nos dió pesadillas a todos."></a>
+                <a href="#"><img src="../img/orfan.jpg" class="d-block w-100 p-3 rounded-1" id="item" alt="ElOrfanato" title="1, 2, 3...TOCO LA PARED!! terrible película, espeluznante, 10 de 10"></a>
 
               </div>
               <div class="carousel-item d-flex justify-content-around">
-                <a href="#"><img src="./img/1920x1200-Lucy-HD-Wallpaper.jpg" class="d-block w-100 p-3 rounded-1" id="item" alt="Lucy" title="Lo que parecía una sobredosis espantosa, se transforma en un poder re zarpado, y Morgan Freeman la ayuda."></a>
-                <a href="#"><img src="./img/JW.png" class="d-block w-100 p-3 rounded-1" id="item" alt="JohnWick" title="Se le muere la esposa, le matan el perrito y le roban el auto. Pero él es el Chuck Norris de los asesinos y va a vengarse."></a>
-                <a href="#"><img src="./img/frozzen.jpg" class="d-block w-100 p-3 rounded-1" id="item" alt="Frozzen" title="Libre soooooy, libre sooooooooy!"></a>
-                <a href="#"><img src="./img/spiderman-no-way-home-movie-poster-wallpaper-1920x1200_6.jpg" class="d-block w-100 p-3 rounded-1" id="item" alt="Spiderman" title="En ésta se cruzan todos los spiderman de todos los universos."></a>
+                <a href="#"><img src="../img/1920x1200-Lucy-HD-Wallpaper.jpg" class="d-block w-100 p-3 rounded-1" id="item" alt="Lucy" title="Lo que parecía una sobredosis espantosa, se transforma en un poder re zarpado, y Morgan Freeman la ayuda."></a>
+                <a href="#"><img src="../img/JW.png" class="d-block w-100 p-3 rounded-1" id="item" alt="JohnWick" title="Se le muere la esposa, le matan el perrito y le roban el auto. Pero él es el Chuck Norris de los asesinos y va a vengarse."></a>
+                <a href="#"><img src="../img/frozzen.jpg" class="d-block w-100 p-3 rounded-1" id="item" alt="Frozzen" title="Libre soooooy, libre sooooooooy!"></a>
+                <a href="#"><img src="../img/spiderman-no-way-home-movie-poster-wallpaper-1920x1200_6.jpg" class="d-block w-100 p-3 rounded-1" id="item" alt="Spiderman" title="En ésta se cruzan todos los spiderman de todos los universos."></a>
 
               </div>
             </div>
@@ -136,6 +147,38 @@
 
           </div>
     </section>
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+        <div class="logo">
+          <figure class="my-4 mx-5 justify-content-center align-items-center">
+            <a href="#">
+              <img class= "mx-5" src="../img/logo.png" alt="Logo">
+            </a>
+          </figure>
+        </div>
+        <div class="box1 text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="./paginas/nosotros.html">ACERCA DE NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACTOS</a>
+          </li>
+        </div>
+        <div class="box">
+          <h2 class="text-center">SIGUENOS</h2>
+          <div class="red-social d-flex justify-content-center align-items-center">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small>&copy; 2023 <b>MOVIE CODE</b> Copyright © All rights reserved.</small>
+      </div>
+    </footer>
+    
     
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
