@@ -28,16 +28,14 @@
   
   
   .btn:hover{
-      background-color:  #6845e7;
+      background-color: blueviolet;
     }
-    
     .my-3 a{
       color:white;
   
     }
     .my-3 a:hover{
-      color:  #6845e7;
-    }
+      color: blueviolet;
   
-    
+    }
    
