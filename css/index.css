@@ -48,7 +48,7 @@ position: center;
 footer {
     width: 100%;
     height: 20%;
-    background-color: rgba(72, 9, 132, 0.905);
+    background-color: #483078;
     color: white;
 }
 .pie-pagina .grupo-1{
@@ -121,11 +121,6 @@ footer {
     }
   
 }
-body{
-    background-color: rgb(34, 1, 34);
-    text-decoration:none;
-}
-
 
 a{
 text-decoration: none;
