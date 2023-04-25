@@ -33,6 +33,10 @@ color: white;
     font-weight: bold;
 }
   
+.error-404{
+    display: inline;
+    padding: 2px;
+}
 
 
 .slide{

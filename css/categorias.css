@@ -1,24 +1,75 @@
+*{
+    font-family: 'Libre Baskerville', serif;
+}
 body{
-    background-color:#2e0527;
+    background-color:#001848;
 }
 
 main{
     padding-top: 100px;
 }
 
-h1{
-    color: rgba(255, 255, 255, 0.596);
+main h1{
+    color: rgb(255, 255, 255);
     margin: 0px;
     padding: 40px;
 }
 .navbar{
-    background-color: rgba(72, 9, 132, 0.905);
-    width: 100%;
-    height: 100px;  
+  background-color: rgba(72, 9, 132, 0.905);
+  z-index:10000;
+  width: 100%;
+  height: 100px;
+  /*position: fixed;*/
+}
+
+.btn{
+  border-color:white;
+}
+.btn:hover{
+  background-color: blueviolet;
+}
+
+
+a{
+text-decoration: none;
+color: white;
+}
+
+.color1 { 
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size:xx-large;
+    font-weight: bold;
+}
+  
+.error-404{
+    display: inline;
+    padding: 2px;
+}
+
+
+.slide{
+    margin-top: 10px;
+
+}
+.slide img{
+ margin: cover;   
+
+height: 80vh;
+position: center;
 }
 
 .botton{
     background-color: #3c1a81;
+    border: solid 1px #483078;
+}
+
+.boton{
+    padding: 50px;
+}
+
+.botton:hover{
+    background-color: #001848;
 }
 
 .img{
@@ -29,12 +80,12 @@ h1{
 }
 
 .text{
-    color: rgba(255, 255, 255, 0.596);
+    color: rgb(255, 255, 255);
     font-size:larger;
     display: none;
 }
 
-div{
+.div{
     padding: 20px;
     display:grid;
 }
@@ -60,33 +111,37 @@ div{
     animation-fill-mode: both;
 }
 
+
+
 footer {
     width: 100%;
-    height: 150px;
+    height: 20%;
     background-color: rgba(72, 9, 132, 0.905);
     color: white;
 }
 .pie-pagina .grupo-1{
     width: 100%;
+    height: 80%;
     max-width: 1200px;
     margin: auto;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-    padding: 30px 0px;
+    padding: 0px 0px;
     margin-bottom: 0px;
 }
-.pie-pagina .grupo-1 .box figure{
+.pie-pagina .grupo-1 .logo figure{
     width: 70%;
     height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.pie-pagina .grupo-1 .box figure img{
+.pie-pagina .grupo-1 .logo figure img{
     width: 110px;
 }
 .pie-pagina .grupo-1 .box h2{
+  padding: 20px;
     color: #fff;
     margin-bottom: 25px;
     font-size: 20px;
@@ -107,100 +162,61 @@ footer {
     text-align: center;
     transition: all 300ms ease;
 }
-.pie-pagina .grupo-1 .red-social a:hover{
-    color: aqua;
+.red-social{
+  padding-bottom: 10px;
 }
+
 .pie-pagina .grupo-2{
+  height: 20%;
     background-color: #0a1a2a;
     padding: 10px 10px;
     text-align: center;
     color: #fff;
-    margin-top: 10px;
 }
 .pie-pagina .grupo-2 small{
     font-size: 15px;
 }
 .box1 {
-    list-style: none;
-}
-
-
-
-
-
-
-
-@media(min-width:768px){
-
-    h1{
-        color: rgba(255, 255, 255, 0.596);
-        margin: 0px;
-        padding: 40px;
-    }
-
-    .botton{
-        background-color: #3c1a81;
-    }
-
-    .img{
-        width: 100px;
-        height: 200px;
-        border: solid 2px #3c1a81;
-        border-radius: 25px;
-    }
-    
-    .text{
-        color: rgba(255, 255, 255, 0.596);
-        font-size:larger;
-        display: none;
-    }
-
-    div{
-        padding: 20px;
-        display:grid;
-    }
-
-    .opacity{
-        background-color: #2e052700;
-    }
-    
-    @keyframes imagenAgrandada {
-        from{
-            position: static;
-            transform: scale(1);
-        }
-        to{
-            position: static;
-            transform: scale(1.50);
-        }
-    }
-
-    .img:hover{
-        animation-name:imagenAgrandada;
-        animation-duration:0.3s;
-        animation-fill-mode: both;
-    }
+  list-style: none;
+  padding: 50px;
+  }
+@media screen and (max-width:800px){
     .pie-pagina .grupo-1{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
-        padding: 35px 0px;
+        padding: 0px 0px;
+    }
+}
+
+.error{
+    height: 200px;
+    margin-left: 600px;
+
+}
+
+.imgerror{
+    margin-left: 350px;
+}
+ 
+@media(min-width:768px){
+
+    .img{
+        width: 100px;
+        height: 200px;
+        border: solid 2px rgb(73, 9, 132);
+        border-radius: 25px;
+    }
+    
+    .text{
+        color: rgb(255, 255, 255);
+        font-size:larger;
+        display: none;
     }
 
 }
 
-@media(min-width:1024px)
-{
-    h1{
-        color: rgba(255, 255, 255, 0.596);
-        margin: 0px;
-        padding: 40px;
-    }
-
-    .botton{
-        background-color: #3c1a81;
-    }
-
+@media(min-width:1024px){
     .img{
         width: 200px;
         height: 300px;
@@ -209,38 +225,8 @@ footer {
     }
     
     .text{
-        color: rgba(255, 255, 255, 0.596);
+        color: rgb(255, 255, 255);
         font-size:larger;
         display: grid;
     }
-
-    div{
-        padding: 20px;
-        display:grid;
-    }
-
-    .opacity{
-        background-color: #2e052700;
-    }
-    
-    @keyframes imagenAgrandada {
-        from{
-            position: static;
-            transform: scale(1);
-        }
-        to{
-            position: static;
-            transform: scale(1.50);
-        }
-    }
-
-    .img:hover{
-        animation-name:imagenAgrandada;
-        animation-duration:0.3s;
-        animation-fill-mode: both;
-    }
 }
-
-
-
-
