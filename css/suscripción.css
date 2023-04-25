@@ -1,64 +1,64 @@
 *{
-    font-family: 'Mukta', sans-serif;
-  }
+  font-family: 'Mukta', sans-serif;
+}
 .card{
-    margin: 0px auto;
-  
+  margin: 0px auto;
+
 }
 
 .card-body{
-    background-color:#001848;
-    color:white;
-    animation: cardAnimation 2s infinite;
-    border-radius: 15px;
-    
+  background-color:#001848;
+  color:white;
+  animation: cardAnimation 2s infinite;
+  border-radius: 15px;
+  
 }
 
 @keyframes cardAnimation {
-    0%{background-color: blueviolet;};
-    25%{background-color: yellowgreen;};
-    50%{background-color: red;};
-    100%{background-color:#001848;};
+  0%{background-color: blueviolet;};
+  25%{background-color: yellowgreen;};
+  50%{background-color: red;};
+  100%{background-color:#001848;};
 }
 
-  body{
-      background: #001848;
-      background: linear-gradient(to right,#483078, #001848 );
+body{
+    background: #001848;
+    background: linear-gradient(to right,#483078, #001848 );
+}
+.bg{
+    background-image: url(../img/loginysus.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .container{
+  background-color: #483078;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+}
+
+.btn{
+    border-color:white;
+    background-color: #001848;
+}
+
+
+.btn:hover{
+    background-color: #6845e7;
   }
-  .bg{
-      background-image: url(../img/loginysus.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
+  .my-3 a{
+    color:white;
+
+  }
+  .my-3 a:hover{
+    color:  #6845e7;
   }
 
-    .container{
-    background-color: #483078;
-  }
   
-  h2{
-      text-align: center;
-      color: white;
-      font-family: 'Mukta', sans-serif;
-  }
-  
-  .btn{
-      border-color:white;
-      background-color: #001848;
-  }
-  
-  
-  .btn:hover{
-      background-color: #6845e7;
-    }
-    .my-3 a{
-      color:white;
-  
-    }
-    .my-3 a:hover{
-      color:  #6845e7;
-    }
-  
-    
-   
+ 
 
